@@ -7,7 +7,7 @@
     android:background="#F2EDFF"
     tools:context=".MainActivity">
 
-    <?xml version="1.0" encoding="utf-8"?>
+
 
     <TextView
         android:id="@+id/textView3"
@@ -24,7 +24,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.14" />
 
-    <?xml version="1.0" encoding="utf-8"?>
+
 
     <Button
         android:id="@+id/button2"
@@ -162,6 +162,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.743" />
 
-    <?xml version="1.0" encoding="utf-8"?>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

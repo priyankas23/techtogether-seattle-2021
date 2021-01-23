@@ -23,10 +23,10 @@ public class MainActivity extends AppCompatActivity {
         double width = wh.widthPixels;
         double height = wh.heightPixels;
 
-        getWindow().setLayout((int) (width*.9), (int) (height*.4));
+        getWindow().setLayout((int) (width * .9), (int) (height * .4));
 
         // for opening screen 2 from screen 1
-        Button j = (Button) findViewById(R.id.button2);
+        Button j = (Button) findViewById(R.id.button3);
         j.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -34,6 +34,15 @@ public class MainActivity extends AppCompatActivity {
             }
 
         });
+        Button jj = (Button) findViewById(R.id.button2);
+        j.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, ProfilePage.class));
+            }
+        });
     }
 }
+
+
 

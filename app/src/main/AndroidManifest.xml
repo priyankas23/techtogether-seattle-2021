@@ -19,6 +19,9 @@
         <activity android:name=".CreateAccount">
 
         </activity>
+        <activity android:name=".ProfilePage">
+
+        </activity>
     </application>
 
 </manifest>

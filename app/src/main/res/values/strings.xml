@@ -14,5 +14,10 @@
     <string name="Full_Name">Full Name</string>
     <string name="email_address">Email Address</string>
     <string name="confirm_email_address">Email Address</string>
+    <string name="back_game">Back To The Game</string>
+    <string name="edit_username">Edit Username</string>
+    <string name="change_password">Change Password</string>
+    <string name="achievements">Achievements</string>
+    <string name="log_out">Log Out</string>
 
 </resources>

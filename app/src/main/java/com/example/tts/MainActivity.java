@@ -16,18 +16,24 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        DisplayMetrics wh = new DisplayMetrics();
+
+        getWindowManager().getDefaultDisplay().getMetrics(wh);
+
+        double width = wh.widthPixels;
+        double height = wh.heightPixels;
+
+        getWindow().setLayout((int) (width*.9), (int) (height*.4));
+
         // for opening screen 2 from screen 1
-        super.onCreate(savedInstanceState);
+        Button j = (Button) findViewById(R.id.button2);
+        j.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, CreateAccount.class));
+            }
 
-                setContentView(R.layout.activity_main);
-
-                DisplayMetrics wh = new DisplayMetrics();
-                getWindowManager().getDefaultDisplay().getMetrics(wh);
-
-                double width = wh.widthPixels;
-                double height = wh.heightPixels;
-
-                getWindow().setLayout((int) (width*.9), (int) (height*.4));
-
-        };
+        });
     }
+}
+

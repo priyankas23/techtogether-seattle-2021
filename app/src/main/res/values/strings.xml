@@ -9,4 +9,10 @@
     <string name="username">username</string>
     <string name="i_agree_to_the_terms_of_service_and_privacy_policy">I agree to the Terms of Service and Privacy Policy</string>
     <string name="password">password</string>
+    <string name="create">Create Account</string>
+    <string name="create_account">Create Account</string>
+    <string name="Full_Name">Full Name</string>
+    <string name="email_address">Email Address</string>
+    <string name="confirm_email_address">Email Address</string>
+
 </resources>

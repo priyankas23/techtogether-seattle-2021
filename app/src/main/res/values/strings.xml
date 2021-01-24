@@ -28,5 +28,10 @@
     <string name="mountain">Mountain</string>
     <string name="sending_failed">SENDING FAILED</string>
     <string name="text_window">Text window</string>
+    <string name="choose_which_skill_set_you_d_like_to_learn">Titlebr</string>
+    <string name="front_end_development">frontendbtn</string>
+    <string name="back_end_developmnt">bkendbtn</string>
+    <string name="full_stack_developer">fullstkbtn</string>
+    <string name="action_settings">actsettings</string>
 
 </resources>

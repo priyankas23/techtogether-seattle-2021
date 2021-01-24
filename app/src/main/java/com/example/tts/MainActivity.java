@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         getWindow().setLayout((int) (width), (int) (height));
 
         // for opening screen 2 from screen 1
-        Button j = (Button) findViewById(R.id.button3);
+        Button j = (Button) findViewById(R.id.sign_up);
         j.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -34,8 +34,10 @@ public class MainActivity extends AppCompatActivity {
             }
 
         });
-        Button jj = (Button) findViewById(R.id.button2);
+
+        Button jj = (Button) findViewById(R.id.sign_in);
         jj.setOnClickListener(new View.OnClickListener() {
+
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this, ProfilePage.class));

@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         double width = wh.widthPixels;
         double height = wh.heightPixels;
 
-        getWindow().setLayout((int) (width * .9), (int) (height * .4));
+        getWindow().setLayout((int) (width), (int) (height));
 
         // for opening screen 2 from screen 1
         Button j = (Button) findViewById(R.id.button3);

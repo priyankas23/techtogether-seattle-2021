@@ -34,8 +34,10 @@ public class MainActivity extends AppCompatActivity {
             }
 
         });
+
         Button jj = (Button) findViewById(R.id.sign_in);
-        j.setOnClickListener(new View.OnClickListener() {
+        jj.setOnClickListener(new View.OnClickListener() {
+
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this, ProfilePage.class));

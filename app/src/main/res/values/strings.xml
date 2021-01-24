@@ -19,5 +19,12 @@
     <string name="change_password">Change Password</string>
     <string name="achievements">Achievements</string>
     <string name="log_out">Log Out</string>
+    <string name="mission_full_stack_development">Mission: Full Stack Development</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_4">4</string>
+    <string name="_3">3</string>
+    <string name="todo">TODO</string>
+    <string name="mountain">Mountain</string>
 
 </resources>

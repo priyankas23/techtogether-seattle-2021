@@ -26,5 +26,7 @@
     <string name="_3">3</string>
     <string name="todo">TODO</string>
     <string name="mountain">Mountain</string>
+    <string name="sending_failed">SENDING FAILED</string>
+    <string name="text_window">Text window</string>
 
 </resources>

@@ -1,10 +1,11 @@
 <resources>
     <string name="app_name">Login</string>
+    <string name="_logo">Logo</string>
 
 
         <string name="sign_in_btn">Sign In</string>
 <string name="sign_up_btn">Sign Up</string>
-    <string name="sign_up_prompt">New to Us?</string>
+    <string name="sign_up_prompt"><u>New to Us?</u></string>
     <string name="remember_me">Remember me</string>
     <string name="username">username</string>
     <string name="i_agree_to_the_terms_of_service_and_privacy_policy">I agree to the Terms of Service and Privacy Policy</string>
@@ -34,5 +35,6 @@
     <string name="full_stack_developer">fullstkbtn</string>
     <string name="action_settings">actsettings</string>
     <string name="new_message">New Message!</string>
-
+    <string name="sending_failed_computer">sending failed computer</string>
+    <string name="sign_up">Sign up!</string>
 </resources>

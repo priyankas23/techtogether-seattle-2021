@@ -11,8 +11,9 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-light"
+        android:fontFamily="@font/dosis_bold"
         android:text="@string/app_name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="#000000"
         android:textSize="50sp"
         android:typeface="normal"
@@ -27,6 +28,7 @@
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@drawable/custom_rounded_corners"
         android:text="@string/sign_in_btn"
         android:textSize="25sp"
         app:backgroundTint="#5B2E94"
@@ -45,8 +47,9 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
+        android:autofillHints=""
         android:ems="20"
-        android:fontFamily="sans-serif-thin"
+        android:fontFamily="@font/dosis_extralight"
         android:hint="@string/username"
         android:inputType="textPersonName"
         android:textColorHighlight="#000000"
@@ -57,8 +60,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.471"
-        android:autofillHints="" />
+        app:layout_constraintVertical_bias="0.476" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -69,8 +71,9 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
+        android:autofillHints=""
         android:ems="20"
-        android:fontFamily="sans-serif-thin"
+        android:fontFamily="@font/dosis_extralight"
         android:hint="@string/password"
         android:inputType="textPassword"
         android:textColorHighlight="#000000"
@@ -78,11 +81,10 @@
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.582"
-        android:autofillHints="" />
+        app:layout_constraintVertical_bias="0.577" />
 
     <CheckBox
         android:id="@+id/checkBox"
@@ -103,10 +105,10 @@
         android:text="@string/i_agree_to_the_terms_of_service_and_privacy_policy"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.225"
+        app:layout_constraintHorizontal_bias="0.183"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.746" />
+        app:layout_constraintVertical_bias="0.758" />
 
     <Button
         android:id="@+id/button3"

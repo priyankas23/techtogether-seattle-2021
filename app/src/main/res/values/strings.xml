@@ -33,5 +33,6 @@
     <string name="back_end_developmnt">bkendbtn</string>
     <string name="full_stack_developer">fullstkbtn</string>
     <string name="action_settings">actsettings</string>
+    <string name="new_message">New Message!</string>
 
 </resources>

@@ -10,7 +10,7 @@
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/app_bar"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/app_bar_height"
+        android:layout_height="wrap_content"
         android:fitsSystemWindows="true"
         android:theme="@style/Theme.TTS.AppBarOverlay">
 
@@ -28,7 +28,7 @@
             android:autofillHints=""
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="@string/choose_which_skill_set_you_d_like_to_learn"  />
+            android:text="@string/choose_which_skill_set_you_d_like_to_learn" />
 
         <View
             android:id="@+id/divider"

@@ -28,5 +28,7 @@
     <string name="mountain">Mountain</string>
     <string name="sending_failed">SENDING FAILED</string>
     <string name="text_window">Text window</string>
+    <string name="sending_failed">SENDING FAILED</string>
+    <string name="sending_failed_computer">sending failed computer</string>
 
 </resources>

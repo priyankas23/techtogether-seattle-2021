@@ -17,10 +17,10 @@
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
         android:layout_marginBottom="32dp"
-        android:background="@drawable/rectangle_drop_shadow"
+        android:background="@drawable/drop_shadow_rectangle"
         android:checkable="false"
         android:clickable="false"
-        android:foreground="@drawable/rectangle_drop_shadow"
+        android:foreground="@drawable/drop_shadow_rectangle"
         app:backgroundTint="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -31,16 +31,16 @@
 
     <ImageButton
         android:id="@+id/imageButton"
-        android:layout_width="411dp"
-        android:layout_height="319dp"
-        android:background="@drawable/rectangle_drop_shadow"
+        android:layout_width="414dp"
+        android:layout_height="131dp"
+        android:background="@drawable/drop_shadow_rectangle"
         android:checkable="false"
         android:clickable="false"
-        android:foreground="@drawable/rectangle_drop_shadow"
+        android:foreground="@drawable/rectangle"
         app:backgroundTint="#FFFFFF"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="-1dp"
-        tools:layout_editor_absoluteY="633dp" />
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="624dp" />
 
     <CheckBox
         android:id="@+id/checkBox"
@@ -124,7 +124,7 @@
         android:id="@+id/sign_in"
         android:layout_width="180dp"
         android:layout_height="63dp"
-        android:background="@drawable/button_drop_shadow"
+        android:background="@drawable/drop_shadow_button"
         android:fontFamily="@font/dosis_bold"
         android:text="@string/sign_in_btn"
         android:textSize="25sp"
@@ -179,6 +179,13 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.759"
         app:strokeColor="#5B2E94"
-        app:strokeWidth="5" />
+        app:strokeWidth="5dp" />
+
+    <corners
+        android:bottomLeftRadius="2dp"
+        android:bottomRightRadius="2dp"
+        android:topLeftRadius="0dp"
+        android:topRightRadius="0dp"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
